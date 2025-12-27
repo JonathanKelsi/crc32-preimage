@@ -1,12 +1,9 @@
 # crc32-preimage
 
-A minimal **CRC32 preimage generator** for 4-byte messages.
-
 Given a desired CRC32 value, this code reconstructs **one valid 4-byte input**
-whose CRC32 (IEEE) equals that value. This is done by inverting the CRC32 state
-transition using a reverse lookup table — no brute force.
+whose CRC32 (IEEE) equals that value.
 
-This is mainly useful for CTF challenges.
+Mainly useful for CTF challenges.
 
 ## CRC Variant
 
