@@ -3,8 +3,6 @@
 Given a desired CRC32 value, this code reconstructs **one valid 4-byte input**
 whose CRC32 (IEEE) equals that value.
 
-Mainly useful for CTF challenges.
-
 ## CRC Variant
 
 This implementation assumes **standard CRC-32 (IEEE)** (`0xEDB88320` Polynomial).
